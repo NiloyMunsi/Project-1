@@ -1,11 +1,37 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 h1{
     font-size: 50px;
 }
 p{
     font-size: 20px;
+}
+nav{
+    text-decoration: none;
+    list-style: none;
+    height: 70px;
+    width: 100%;
+    background-color: teal;
+    border-radius: 5px;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+nav li{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 0 100px;
+    line-height: 80px;
 }
 #first{
     color: rgba(0, 0, 0, 0.753);
@@ -20,7 +46,7 @@ section{
 }
 .part{
     width: 50%;
-
+    text-align: justify;
 }
 .part img{
     width: 100%;
@@ -33,7 +59,7 @@ section{
 .link{
     text-decoration: none;
     padding: 10px 40px;
-    background-image: linear-gradient(#33f3e9, #3e34ca);
+    background-image: linear-gradient(#1bb9b1, #114a9e);
     color: white;
     border-radius: 5px;
 }
@@ -64,7 +90,7 @@ section{
     vertical-align: middle;
     margin-left: 10%;
     margin-right: 10%;
-    
+    line-height: 20px;
 }
 .follower{
     height: 120px;
@@ -75,11 +101,18 @@ section{
 }
 footer{
     background-color: rgb(23, 25, 36);
-    height: 250px;
+    height: 200px;
     text-align: center;
     padding: 20px;
     margin-top: 100px;
 }
 #eat{
     color: white;
+}
+#copyright{
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color:  rgb(23, 25, 36);
+    color: darkgrey;
 }
