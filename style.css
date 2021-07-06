@@ -1,6 +1,6 @@
 body{
-    font-family: 'Ubuntu', sans-serif;
-    
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -77,6 +77,7 @@ section{
 }
 .food img{
     height: 180px;
+    border-radius: 10px;
 }
 #opacity{
     color: rgba(128, 128, 128, 0.795);
